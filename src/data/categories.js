@@ -1,27 +1,33 @@
 const CATEGORY_DATA = [
   {
     id: 1,
-    name: "Florist"
+    name: "Florist",
+    img_url: "http://www.everafterfloraldesign.com/new-gallery-2/u9amwh377gcxu4glssyjdnkj7k61yc"
   },
   {
     id: 2,
-    name: "Decor"
+    name: "Decor",
+    img_url: "https://www.unearthedrentals.com/new-collection/item/flynt-wall-115936/"
   },
   {
     id: 3,
-    name: "Venue"
+    name: "Venue",
+    image_url: ""
   },
   {
     id: 4,
-    name: "Photography"
+    name: "Photography",
+    img_url:"",  
   },
   {
     id: 5,
-    name: "Catering"
+    name: "Catering",
+    img_url:""
   },
   {
     id: 6,
-    name: "Music"
+    name: "Music",
+    image_url: ""
   }
 ];
 
