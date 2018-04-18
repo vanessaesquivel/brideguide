@@ -6,20 +6,19 @@ class CategoryView extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-          <ul className="list-group">
-            <li className="header">Categories</li>
-            <li className="list-group-item active">Flowers</li>
-            <li className="list-group-item">Venues</li>
-            <li className="list-group-item">Music</li>
-            <li className="list-group-item">Decor</li>
-            <li className="list-group-item">Photography</li>
-            <li className="list-group-item">Catering</li>
-          </ul>
+            <ul className="list-group">
+              <li className="header">Categories</li>
+              <li className="list-group-item active">Flowers</li>
+              <li className="list-group-item">Venues</li>
+              <li className="list-group-item">Music</li>
+              <li className="list-group-item">Decor</li>
+              <li className="list-group-item">Photography</li>
+              <li className="list-group-item">Catering</li>
+            </ul>
           </div>
 
           <div className="col-md-9">
             <div className="row">
-
               {
                 this.props.vendors.map((vendor, i) => {
                   return (
@@ -28,15 +27,12 @@ class CategoryView extends Component {
                       <div className="card-body">
                         <h5 className="card-title">{vendor.name}</h5>
                         <p className="card-text">{vendor.short_description}</p>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <a href="#" className="btn btn-primary">See voucher</a>
                       </div>
                     </div>
                   )
                 })
               }
-
-
-
             </div>
           </div>
         </div>
