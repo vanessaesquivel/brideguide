@@ -15,7 +15,7 @@ ReactDOM.render(
   //   voucherDiscount="250"
   //   />,
   //<CategoryView vendors={[{ name:"Flowers1", short_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod" }]} />,
-<Home />,
+<Home categories={"Flowers", "Music", "Venues"}/>,
   document.getElementById('root')
 );
 registerServiceWorker();
