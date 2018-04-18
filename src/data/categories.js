@@ -17,17 +17,17 @@ const CATEGORY_DATA = [
   {
     id: 4,
     name: "Photography",
-    img_url:"",  
+    img_url:"http://topweddings.bronnikov.club/images/18985/Miami-Wedding-Venues-Fantastic-Wedding-Ideas-B11-About-Miami-Wedding-Venues.jpg",
   },
   {
     id: 5,
     name: "Catering",
-    img_url:""
+    img_url:"http://loveforfoodcatering.com/wp-content/uploads/2012/10/Wedding-Catering-Richmond-VA-Catering-LoveFor-Food-Catering.jpg"
   },
   {
     id: 6,
     name: "Music",
-    image_url: ""
+    image_url: "http://www.biscaynequartet.com/wp-content/uploads/2015/09/IMG_1447-1024x633.jpg"
   }
 ];
 
