@@ -4,6 +4,7 @@ import VendorView from './components/VendorView';
 import CategoryView from './components/CategoryView';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './components/Home';
+import CATEGORY_DATA from './data/categories';
 
 ReactDOM.render(
   // <VendorView
@@ -15,7 +16,7 @@ ReactDOM.render(
   //   voucherDiscount="250"
   //   />,
   //<CategoryView vendors={[{ name:"Flowers1", short_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod" }]} />,
-<Home categories={"Flowers", "Music", "Venues"}/>,
+<Home categories={CATEGORY_DATA} />,
   document.getElementById('root')
 );
 registerServiceWorker();
