@@ -100,13 +100,13 @@ const VENDOR_DATA = [{
   },
   {
     category_id: 2,
-    name: "",
-    short_description: ".",
-    description: "",
+    name: "Delux Event Decor",
+    short_description: "DELUX EVENTS DECOR has 12 years of experience specializing in weddings and social events. Our team is a group of experienced designers, that are not only passionate about flowers but also about making dreams come true.",
+    description: " DELUX EVENTS DECOR has 12 years of experience specializing in weddings and social events. Our team is a group of experienced designers, that are not only passionate about flowers but also about making dreams come true. We strive to make the extraordinary from the ordinary, we only have one goal: your complete satisfaction. Your wedding day will be one of the most exciting days of your life. We would love to work with you to plan the wedding of your dreams. Our specialized team will work closely with you to create a unique and personalized design that will reflect you!",
     contact: {
-      address: "",
-      phone: "",
-      email: ""
+      address: "12020 SW 132CT MIAMI FL, 33186",
+      phone: "(305)-238-5733",
+      email: "events@deluxeventsdecor.com"
     },
     voucher: {
       title: "Decor Voucher",
@@ -116,13 +116,13 @@ const VENDOR_DATA = [{
   },
   {
     category_id: 2,
-    name: "",
-    short_description: "",
-    description: "",
+    name: "All Event Decoration",
+    short_description: "At All Event Decoration & Wedding Rentals, we understand your need to have everything perfect on your big occasion. We offer a wide variety of party equipment and furniture on rent. ",
+    description: "At All Event Decoration & Party Rental, we understand your need to have everything perfect on your big occasion. We offer a wide variety of party equipment and furniture on rent.",
     contact: {
-      address: "",
-      phone: "",
-      email: ""
+      address: "2639 W 3rd Ct Hialeah FL 33010",
+      phone: "(305) 305-1852",
+      email: "info@alleventsdecorations.com"
     },
     voucher: {
       title: "Decor Voucher",
@@ -149,13 +149,13 @@ const VENDOR_DATA = [{
   },
   {
     category_id: 3,
-    name: "The Bath Club",
-    short_description: "",
-    description: "",
+    name: "Villa Woodbine",
+    short_description: "You can be assured that we will help you create an event that will bring rave reviews from your guests. ",
+    description: "Villa Woodbine is a private mansion located in Coconut Grove,just south of downtown Miami on South Bayshore Drive.Exclusive to Bill Hansen Catering,the historic property is a treasure of a bygone era.",
     contact: {
-      address: "",
-      phone: "",
-      email: ""
+      address: "2167 South Bayshore Drive Miami, Florida 33133",
+      phone: "(305)-858-6660",
+      email: "info@billhansencatering.com"
     },
     voucher: {
       title: "Venue Voucher",
@@ -165,13 +165,14 @@ const VENDOR_DATA = [{
   },
   {
     category_id: 3,
-    name: "The Bath Club",
-    short_description: "",
-    description: "",
+    name: "Comber Hall",
+    short_description: "Comber Hall is a beautiful two story venue located next to Church of the Little Flower in the heart of Coral Gables with textured walls, original ceiling paintings and exposed wood beams in the downstairs lobby and upstairs ballroom.",
+    description: " The venue is incredibly spacious, seating 300 guests in the downstairs ballroom with a dance floor, including a stage for entertainment and the lower front lobby for a cocktail hour. The lobby is complete with a beautiful entry table perfect for escort cards, artistic mirror details and complementing soft seating.
+The upstairs ballroom seats 250 with a dance floor, including a stage for entertainment and the upstairs lobby for a cocktail hour. The space features terraces overlooking Coral Gables, the church and surrounding grounds on both sides, and all glass doors offer gorgeous sunlight exposure for daytime events.",
     contact: {
-      address: "",
-      phone: "",
-      email: ""
+      address: "2711 Indian Mound Trail, Coral Gables, FL 33134",
+      phone: "(786)-614-9908",
+      email: "info@comberhall.com"
     },
     voucher: {
       title: "Venue Voucher",
@@ -181,13 +182,13 @@ const VENDOR_DATA = [{
   },
   {
     category_id: 3,
-    name: "The Bath Club",
-    short_description: "",
-    description: "",
+    name: "Thalatta Estate",
+    short_description: "With its historic significance in South Florida and stunning bayside location, Thalatta Estate is a unique setting for your outdoor wedding ceremony, reception, or special event.",
+    description: "Thalatta Estate is a unique setting for your outdoor wedding ceremony and reception. This magnificent site offers many unique amenities for up to 225 guests, including a waterside ceremony area, waterfalls cascading into a romantic reflection pond, manicured gardens, covered terrace, bridal suite, and catering kitchen.",
     contact: {
-      address: "",
-      phone: "",
-      email: ""
+      address: "17301 Old Cutler Rd, Palmetto Bay, FL 33157",
+      phone: "(305)-662-4742",
+      email: "info@thalattaestate.com"
     },
     voucher: {
       title: "Venue Voucher",
@@ -214,13 +215,13 @@ const VENDOR_DATA = [{
   },
   {
     category_id: 4,
-    name: "",
-    short_description: ".",
-    description: "",
+    name: "Alan Phillip Photography",
+    short_description: "We are Alan and Raul and we are obsessed with capturing love! We were named one of Miami’s best wedding photographers.",
+    description: " In our experience, the best method in capturing life's true moments is through a candid and relaxed style of photographing, which allows people to feel comfortable and reveal their true selves. Allow us the opportunity to capture your moments.",
     contact: {
-      address: ,
-      phone: "",
-      email: ""
+      address: "CORAL GABLES, FL",
+      phone: "305-281-7711",
+      email: "info@alanphillip.com"
     },
     voucher: {
       title: "Photography Voucher",
@@ -228,38 +229,7 @@ const VENDOR_DATA = [{
       price: 0
     }
   },
-  {
-    category_id: 4,
-    name: "",
-    short_description: ".",
-    description: "",
-    contact: {
-      address: ,
-      phone: "",
-      email: ""
-    },
-    voucher: {
-      title: "Photography Voucher",
-      value: 0,
-      price: 0
-    }
-  },
-  {
-    category_id: 4,
-    name: "",
-    short_description: ".",
-    description: "",
-    contact: {
-      address: ,
-      phone: "",
-      email: ""
-    },
-    voucher: {
-      title: "Photography Voucher",
-      value: 0,
-      price: 0
-    }
-  },
+
 
   {
     category_id: 5,
@@ -279,45 +249,13 @@ const VENDOR_DATA = [{
   },
   {
     category_id: 5,
-    name: "",
+    name: "Joy Wallace",
     short_description: "",
     description: "",
     contact: {
-      address: "",
-      phone: "",
-      email: ""
-    },
-    voucher: {
-      title: "",
-      value: 0,
-      price: 0
-    }
-  },
-  {
-    category_id: 5,
-    name: "",
-    short_description: "",
-    description: "",
-    contact: {
-      address: "",
-      phone: "",
-      email: ""
-    },
-    voucher: {
-      title: "",
-      value: 0,
-      price: 0
-    }
-  },
-  {
-    category_id: 5,
-    name: "",
-    short_description: "",
-    description: "",
-    contact: {
-      address: "",
-      phone: "",
-      email: ""
+      address: "8501 SW 129th Terrace, Miami, FL 33156",
+      phone: "(305) 252-0020",
+      email: "hello@ajoywallace.com"
     },
     voucher: {
       title: "",
@@ -344,8 +282,8 @@ const VENDOR_DATA = [{
   }
   {
     category_id: 6,
-    name: "",
-    short_description: "",
+    name: "Innocenti Strings",
+    short_description: "Here we will provide the most talented string players in your area for just about any events. It has been over ten years now and we are so happy to be able to help clients, brides and grooms all over the country.",
     description: "",
     contact: {
       address: "",
