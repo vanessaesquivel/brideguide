@@ -5,6 +5,7 @@ const VENDOR_DATA = [{
     name: "Ever After Floral",
     short_description: "Local artist/entrepreneur Rachel Stevenson has made wedding and event floral design her life's passion. She has been a floral designer since 2004, first at a floral shop in Lancaster County and then branching out on her own business venture in 2008 doing exclusive wedding designs from her floral studio in Myerstown.",
     description: "Local artist/entrepreneur Rachel Stevenson has made wedding and event floral design her life's passion. She has been a floral designer since 2004, first at a floral shop in Lancaster County and then branching out on her own business venture in 2008 doing exclusive wedding designs from her floral studio in Myerstown. She has received training not only from her former floral position but also advanced training specifically in wedding design from instructors at the Longwood Gardens Design School. It is her goal to create works of art inspired by your personality and ideas as well as work within your wedding floral budget.",
+    image_url: "https://static1.squarespace.com/static/547131aae4b0d1dec986cd9e/59498698d482e9276513b790/5949875b1b631b3571bf93e6/1497992664746/20170523-amy-lauren-creative-process-24.JPG"
     contact: {
       address: "Carpenter Ave, Myerstown, PA 17067, USA",
       phone: "(717) 813-1768",
