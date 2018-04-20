@@ -12,7 +12,7 @@ class Home extends Component {
       <div className="container-fluid">
           <div className="row">
             <div className="col">
-              <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/cover.png`} />
+              <img className="img-fluid" style={{width: "100%"}}src={`${process.env.PUBLIC_URL}/images/cover.png`} />
             </div>
           </div>
           <blockquote class="blockquote text-center">
