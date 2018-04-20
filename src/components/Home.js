@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import { Router, Route, Link } from 'react-router-dom';
+import CategoryView from './CategoryView';
+import CATEGORY_DATA from '../data/categories';
 
 class Home extends Component {
   render(){
+    const categories = CATEGORY_DATA;
+
     return(
 
       <div className="container-fluid">
@@ -16,7 +21,7 @@ class Home extends Component {
           </div>
           <div className="row">
             {
-              this.props.categories.map((category, i) => {
+              categories.map((category, i) => {
                 return (
                   <div className="col col-md-6 mb-4">
                     <div className="card">
@@ -24,7 +29,7 @@ class Home extends Component {
                       <div className="card-body">
                         <h5 className="card-title">{category.name}</h5>
 
-                        <a href="#" className="btn btn-primary">View More</a>
+                        <a href={`/categories/${category.id}`} className="btn btn-primary">View More</a>
                       </div>
                     </div>
                   </div>

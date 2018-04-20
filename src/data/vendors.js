@@ -1,11 +1,11 @@
 
 const VENDOR_DATA = [{
-
+    id: 1,
     category_id: 1,
     name: "Ever After Floral",
     short_description: "Local artist/entrepreneur Rachel Stevenson has made wedding and event floral design her life's passion. She has been a floral designer since 2004, first at a floral shop in Lancaster County and then branching out on her own business venture in 2008 doing exclusive wedding designs from her floral studio in Myerstown.",
     description: "Local artist/entrepreneur Rachel Stevenson has made wedding and event floral design her life's passion. She has been a floral designer since 2004, first at a floral shop in Lancaster County and then branching out on her own business venture in 2008 doing exclusive wedding designs from her floral studio in Myerstown. She has received training not only from her former floral position but also advanced training specifically in wedding design from instructors at the Longwood Gardens Design School. It is her goal to create works of art inspired by your personality and ideas as well as work within your wedding floral budget.",
-    image_url: "https://static1.squarespace.com/static/547131aae4b0d1dec986cd9e/59498698d482e9276513b790/5949875b1b631b3571bf93e6/1497992664746/20170523-amy-lauren-creative-process-24.JPG"
+    image_url: "https://static1.squarespace.com/static/547131aae4b0d1dec986cd9e/59498698d482e9276513b790/5949875b1b631b3571bf93e6/1497992664746/20170523-amy-lauren-creative-process-24.JPG",
     contact: {
       address: "Carpenter Ave, Myerstown, PA 17067, USA",
       phone: "(717) 813-1768",
@@ -18,6 +18,7 @@ const VENDOR_DATA = [{
     }
   },
   {
+    id: 20,
     category_id: 1,
     name: "Bayfront Floral",
     short_description: "Here at Bayfront Floral, we believe that on your special day, you deserve sensational floral designs that reflect you and your unique personality. ",
@@ -34,9 +35,10 @@ const VENDOR_DATA = [{
     }
   },
   {
+    id: 19,
     category_id: 1,
     name: "Tria's Flowers",
-    short_description: "Trias Flowers has been recognized and awarded #1 in City Search Miami and Coral Gables Living for five consecutive years and "Top 200" florists in the country for the last five years by Teleflora. ",
+    short_description: "Trias Flowers has been recognized and awarded #1 in City Search Miami and Coral Gables Living for five consecutive years and \"Top 200\" florists in the country for the last five years by Teleflora. ",
     description: "Trias Flowers & Events is a full service floral wedding and event planning company. A fourth generation family-owned business, it is one of the highest regarded florists in South Florida. With over 100 years of experience, Trias Flowers & Events has a reputation for award-winning flowers, memorable weddings & events with warm, friendly service.",
     contact: {
       address: "6520 Bird Road Miami, FL 33155",
@@ -50,6 +52,7 @@ const VENDOR_DATA = [{
     }
   },
   {
+    id: 18,
     category_id: 1,
     name: "Anthology Floristry & Event Design",
     short_description: "Anthology Co. is a floral studio and styling boutique for social and corporate events. Behind the company stands a strong philosophy to render the beauty of nature, admiration to artful design and history while mastering the art of setting the table.",
@@ -67,6 +70,7 @@ const VENDOR_DATA = [{
   },
 
   {
+    id: 17,
     category_id: 2,
     name: "Unearthead Rentals",
     short_description: "We conceptualized the idea of Unearthed Vintage in 2011, bringing our ideas to life in January of 2012 as South Florida’s first vintage rental company, leading the way in the event industry with our carefully curated collection.",
@@ -84,6 +88,7 @@ const VENDOR_DATA = [{
   },
 
   {
+    id: 16,
     category_id: 2,
     name: "Event Decor South Florida",
     short_description: "Event Decor South Florida was established by combining experienced lighting and draping professionals. With the combined experience of both groups of professionals we have one of the fastest turn key operations in the event industry, largest inventory in flame retardant fabrics and lighting fixtures.",
@@ -100,6 +105,7 @@ const VENDOR_DATA = [{
     }
   },
   {
+    id: 15,
     category_id: 2,
     name: "Delux Event Decor",
     short_description: "DELUX EVENTS DECOR has 12 years of experience specializing in weddings and social events. Our team is a group of experienced designers, that are not only passionate about flowers but also about making dreams come true.",
@@ -116,6 +122,7 @@ const VENDOR_DATA = [{
     }
   },
   {
+    id: 14,
     category_id: 2,
     name: "All Event Decoration",
     short_description: "At All Event Decoration & Wedding Rentals, we understand your need to have everything perfect on your big occasion. We offer a wide variety of party equipment and furniture on rent. ",
@@ -133,6 +140,7 @@ const VENDOR_DATA = [{
   },
 
   {
+    id: 13,
     category_id: 3,
     name: "The Bath Club",
     short_description: "The Bath Club is a hidden gem located on the beach in the beautiful City of Miami Beach and is is the ideal setting for a romantic and memorable wedding.",
@@ -149,6 +157,7 @@ const VENDOR_DATA = [{
     }
   },
   {
+    id: 12,
     category_id: 3,
     name: "Villa Woodbine",
     short_description: "You can be assured that we will help you create an event that will bring rave reviews from your guests. ",
@@ -165,11 +174,11 @@ const VENDOR_DATA = [{
     }
   },
   {
+    id: 11,
     category_id: 3,
     name: "Comber Hall",
     short_description: "Comber Hall is a beautiful two story venue located next to Church of the Little Flower in the heart of Coral Gables with textured walls, original ceiling paintings and exposed wood beams in the downstairs lobby and upstairs ballroom.",
-    description: " The venue is incredibly spacious, seating 300 guests in the downstairs ballroom with a dance floor, including a stage for entertainment and the lower front lobby for a cocktail hour. The lobby is complete with a beautiful entry table perfect for escort cards, artistic mirror details and complementing soft seating.
-The upstairs ballroom seats 250 with a dance floor, including a stage for entertainment and the upstairs lobby for a cocktail hour. The space features terraces overlooking Coral Gables, the church and surrounding grounds on both sides, and all glass doors offer gorgeous sunlight exposure for daytime events.",
+    description: " The venue is incredibly spacious, seating 300 guests in the downstairs ballroom with a dance floor, including a stage for entertainment and the lower front lobby for a cocktail hour. The lobby is complete with a beautiful entry table perfect for escort cards, artistic mirror details and complementing soft seating. The upstairs ballroom seats 250 with a dance floor, including a stage for entertainment and the upstairs lobby for a cocktail hour. The space features terraces overlooking Coral Gables, the church and surrounding grounds on both sides, and all glass doors offer gorgeous sunlight exposure for daytime events.",
     contact: {
       address: "2711 Indian Mound Trail, Coral Gables, FL 33134",
       phone: "(786)-614-9908",
@@ -182,6 +191,7 @@ The upstairs ballroom seats 250 with a dance floor, including a stage for entert
     }
   },
   {
+    id: 10,
     category_id: 3,
     name: "Thalatta Estate",
     short_description: "With its historic significance in South Florida and stunning bayside location, Thalatta Estate is a unique setting for your outdoor wedding ceremony, reception, or special event.",
@@ -199,6 +209,7 @@ The upstairs ballroom seats 250 with a dance floor, including a stage for entert
   },
 
   {
+    id: 4,
     category_id: 4,
     name: "Christian Arevalo",
     short_description: "My camera is a tool to freeze moments in time. Moments shared  with your family, friends, or even strangers. These are moments we can never get back, and the only way to relive them is to be able to see them in front of you.",
@@ -215,6 +226,7 @@ The upstairs ballroom seats 250 with a dance floor, including a stage for entert
     }
   },
   {
+    id: 9,
     category_id: 4,
     name: "Alan Phillip Photography",
     short_description: "We are Alan and Raul and we are obsessed with capturing love! We were named one of Miami’s best wedding photographers.",
@@ -233,6 +245,7 @@ The upstairs ballroom seats 250 with a dance floor, including a stage for entert
 
 
   {
+    id: 5,
     category_id: 5,
     name: "Aaron's Catering",
     short_description: "Aaron’s Catering is a food driven, farm to table, catering company for over 12 years providing innovative and out of the box presentations with a twist. ",
@@ -249,6 +262,7 @@ The upstairs ballroom seats 250 with a dance floor, including a stage for entert
     }
   },
   {
+    id: 8,
     category_id: 5,
     name: "Joy Wallace",
     short_description: "",
@@ -266,6 +280,7 @@ The upstairs ballroom seats 250 with a dance floor, including a stage for entert
   },
 
   {
+    id: 6,
     category_id: 6,
     name: "Biscayne String Quartet",
     short_description: "The Biscayne String Quartet is one of the most sought after Miami based ensembles for wedding ceremony music, corporate events, and parties.  ",
@@ -280,8 +295,9 @@ The upstairs ballroom seats 250 with a dance floor, including a stage for entert
       value: 0,
       price: 0
     }
-  }
+  },
   {
+    id: 7,
     category_id: 6,
     name: "Innocenti Strings",
     short_description: "Here we will provide the most talented string players in your area for just about any events. It has been over ten years now and we are so happy to be able to help clients, brides and grooms all over the country.",

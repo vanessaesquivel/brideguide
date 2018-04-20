@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import VENDOR_DATA from '../data/vendors';
 
 
 class VendorView extends Component {
   render() {
-    const vendor = this.props.vendor;
+    const vendorId = this.props.match.params.vendorId;
+    const vendor = VENDOR_DATA.filter((vendor) => vendor.id == vendorId)[0];
     const voucher = vendor.voucher;
 
     return (

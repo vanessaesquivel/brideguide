@@ -6,6 +6,11 @@ import registerServiceWorker from './registerServiceWorker';
 import Home from './components/Home';
 import CATEGORY_DATA from './data/categories';
 
+import VENDOR_DATA from './data/vendors';
+import {Router, Route} from 'react-router-dom';
+import createBrowserHistory from 'history/createBrowserHistory';
+
+const history = createBrowserHistory()
 ReactDOM.render(
   // <VendorView
   //   voucherTitle="Example Voucher Title"
@@ -15,8 +20,16 @@ ReactDOM.render(
   //   voucherValue="1000"
   //   voucherDiscount="250"
   //   />,
-  //<CategoryView vendors={[{ name:"Flowers1", short_description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod" }]} />,
-<Home categories={CATEGORY_DATA} />,
+  //<CategoryView vendors={VENDOR_DATA} />,
+  //<Home categories={CATEGORY_DATA} />,
+
+    <Router history={history}>
+      <div>
+        <Route exact path="/" component={ Home } />
+        <Route path="/categories/:categoryId" component={ CategoryView } />
+        <Route path="/voucher/:vendorId" component={ VendorView } />
+      </div>
+    </Router>,
   document.getElementById('root')
 );
 registerServiceWorker();
