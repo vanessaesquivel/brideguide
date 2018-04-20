@@ -69,7 +69,7 @@ class VendorView extends Component {
                 <span>Total (USD)</span>
               <strong>${voucher.price}</strong>
               </li>
-              <li className="list-group-item d-flex justify-content-between"><button type="button" className="btn btn-primary btn-lg btn-block">Purchase</button></li>
+              <li className="list-group-item d-flex justify-content-between"><button type="button" className="btn btn-info btn-lg btn-block">Purchase</button></li>
             </ul>
           </div>
         </div>

@@ -24,12 +24,12 @@ class Home extends Component {
               categories.map((category, i) => {
                 return (
                   <div className="col col-md-6 mb-4">
-                    <div className="card">
+                    <div className="card text-center">
                       <img className="card-img-top" src={category.img_url} alt="Card image cap" />
                       <div className="card-body">
                         <h5 className="card-title">{category.name}</h5>
 
-                        <a href={`/categories/${category.id}`} className="btn btn-primary">View More</a>
+                        <a href={`/categories/${category.id}`} className="btn btn-info">View More</a>
                       </div>
                     </div>
                   </div>
