@@ -15,10 +15,10 @@ class Home extends Component {
               <img className="img-fluid" src={`${process.env.PUBLIC_URL}/images/cover.png`} />
             </div>
           </div>
-          <div className="row text-center">
-          <p className="text-center">A bride&#39;s guide to planning a remote wedding.</p>
-            <p className="text-muted">All the vendors you need in one place to plan your wedding</p>
-          </div>
+          <blockquote class="blockquote text-center">
+          <h4 className="mt-4">A bride&#39;s guide to planning a remote wedding.</h4>
+          <h5 className="text-center text-muted mb-4">All the vendors you need in one place to plan your wedding</h5>
+          </blockquote>
           <div className="row">
             {
               categories.map((category, i) => {
